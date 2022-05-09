@@ -20,7 +20,7 @@
 
     {% endset %}
 
-    {{ log(msg, info=True) }}
+    {{ print(msg, info=True) }}
 
     select 'fail'
 

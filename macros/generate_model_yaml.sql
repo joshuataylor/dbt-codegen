@@ -21,7 +21,7 @@
 {% if execute %}
 
     {% set joined = model_yaml | join ('\n') %}
-    {{ log(joined, info=True) }}
+    {{ print(joined, info=True) }}
     {% do return(joined) %}
 
 {% endif %}

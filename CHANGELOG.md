@@ -1,10 +1,7 @@
-# dbt-codegen v0.6.0
-
-This release creates breaking changes to the `generate_source.sql` macro.
+# dbt-codegen v0.8.0
 
 ## Features
-- add optional `table_pattern` argument to `generate_source.sql` macro. Default value is '%' to pull all tables in the raw data schema to preserve existing behavior if the `table_pattern` argument is not specified by the user.
-
+- Use print() macro instead of log(), which allows the use of --quiet
 # dbt-codegen v0.5.0
 
 This release supports any version (minor and patch) of v1, which means far less need for compatibility releases in the future.
